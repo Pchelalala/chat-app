@@ -11,6 +11,7 @@
 		0E9DD90E2C81EEB7004BCAF1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9DD90D2C81EEB7004BCAF1 /* ContentView.swift */; };
 		0E9DD9102C81EEB8004BCAF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E9DD90F2C81EEB8004BCAF1 /* Assets.xcassets */; };
 		0E9DD9132C81EEB8004BCAF1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E9DD9122C81EEB8004BCAF1 /* Preview Assets.xcassets */; };
+		0E9DD91B2C81F5DB004BCAF1 /* TitleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9DD91A2C81F5DB004BCAF1 /* TitleRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		0E9DD90D2C81EEB7004BCAF1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0E9DD90F2C81EEB8004BCAF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E9DD9122C81EEB8004BCAF1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0E9DD91A2C81F5DB004BCAF1 /* TitleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				0E9DD90B2C81EEB7004BCAF1 /* chat_appApp.swift */,
 				0E9DD90D2C81EEB7004BCAF1 /* ContentView.swift */,
+				0E9DD9192C81F52A004BCAF1 /* Components */,
 				0E9DD90F2C81EEB8004BCAF1 /* Assets.xcassets */,
 				0E9DD9112C81EEB8004BCAF1 /* Preview Content */,
 			);
@@ -65,6 +68,14 @@
 				0E9DD9122C81EEB8004BCAF1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0E9DD9192C81F52A004BCAF1 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				0E9DD91A2C81F5DB004BCAF1 /* TitleRow.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				0E9DD90E2C81EEB7004BCAF1 /* ContentView.swift in Sources */,
 				0E9DD90C2C81EEB7004BCAF1 /* chat_appApp.swift in Sources */,
+				0E9DD91B2C81F5DB004BCAF1 /* TitleRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
