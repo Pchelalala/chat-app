@@ -14,6 +14,7 @@
 		0E9DD91B2C81F5DB004BCAF1 /* TitleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9DD91A2C81F5DB004BCAF1 /* TitleRow.swift */; };
 		0E9DD91E2C81F926004BCAF1 /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9DD91D2C81F926004BCAF1 /* MessageModel.swift */; };
 		0E9DD9202C81FB31004BCAF1 /* MessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9DD91F2C81FB31004BCAF1 /* MessageBubble.swift */; };
+		0E9DD9242C8203B3004BCAF1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9DD9232C8203B3004BCAF1 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		0E9DD91A2C81F5DB004BCAF1 /* TitleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleRow.swift; sourceTree = "<group>"; };
 		0E9DD91D2C81F926004BCAF1 /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
 		0E9DD91F2C81FB31004BCAF1 /* MessageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubble.swift; sourceTree = "<group>"; };
+		0E9DD9232C8203B3004BCAF1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		0E9DD90A2C81EEB7004BCAF1 /* chat-app */ = {
 			isa = PBXGroup;
 			children = (
+				0E9DD9232C8203B3004BCAF1 /* Extensions.swift */,
 				0E9DD90B2C81EEB7004BCAF1 /* chat_appApp.swift */,
 				0E9DD90D2C81EEB7004BCAF1 /* ContentView.swift */,
 				0E9DD91C2C81F8DE004BCAF1 /* Models */,
@@ -163,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E9DD90E2C81EEB7004BCAF1 /* ContentView.swift in Sources */,
+				0E9DD9242C8203B3004BCAF1 /* Extensions.swift in Sources */,
 				0E9DD90C2C81EEB7004BCAF1 /* chat_appApp.swift in Sources */,
 				0E9DD9202C81FB31004BCAF1 /* MessageBubble.swift in Sources */,
 				0E9DD91B2C81F5DB004BCAF1 /* TitleRow.swift in Sources */,
