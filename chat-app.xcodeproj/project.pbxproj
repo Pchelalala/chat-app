@@ -18,6 +18,7 @@
 		0E9DD9262C8207E9004BCAF1 /* MessageField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9DD9252C8207E9004BCAF1 /* MessageField.swift */; };
 		0E9DD9282C849D9C004BCAF1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E9DD9272C849D9C004BCAF1 /* GoogleService-Info.plist */; };
 		0E9DD92B2C84A373004BCAF1 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 0E9DD92A2C84A373004BCAF1 /* FirebaseFirestore */; };
+		0E9DD92D2C84ABD9004BCAF1 /* MessageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9DD92C2C84ABD9004BCAF1 /* MessageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		0E9DD9232C8203B3004BCAF1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		0E9DD9252C8207E9004BCAF1 /* MessageField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageField.swift; sourceTree = "<group>"; };
 		0E9DD9272C849D9C004BCAF1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0E9DD92C2C84ABD9004BCAF1 /* MessageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				0E9DD9192C81F52A004BCAF1 /* Components */,
 				0E9DD90F2C81EEB8004BCAF1 /* Assets.xcassets */,
 				0E9DD9112C81EEB8004BCAF1 /* Preview Content */,
+				0E9DD92C2C84ABD9004BCAF1 /* MessageManager.swift */,
 			);
 			path = "chat-app";
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 				0E9DD9202C81FB31004BCAF1 /* MessageBubble.swift in Sources */,
 				0E9DD91B2C81F5DB004BCAF1 /* TitleRow.swift in Sources */,
 				0E9DD91E2C81F926004BCAF1 /* MessageModel.swift in Sources */,
+				0E9DD92D2C84ABD9004BCAF1 /* MessageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
